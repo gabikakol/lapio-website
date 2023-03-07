@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding-top: 10px;
+    position: fixed;
+}
+
+#first {
+    background-color: red;
+}
+
+#second {
+    background-color: yellow;
+    left: 240px;
+}
+
+#third {
+    background-color: green;
+    left: 470px;
+}
