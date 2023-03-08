@@ -1,21 +1,44 @@
+* {
+    color: blue;
+}
+
 .box {
     width: 200px;
     height: 100px;
     margin: 10px;
-    padding-top: 10px;
+    padding: 10px;
     position: fixed;
 }
 
-#first {
+.inner-box {
+    margin: 10px;  
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#first-box {
+    background-color: green;
+}
+
+#first-element {
     background-color: red;
 }
 
-#second {
-    background-color: yellow;
+#second-box {
+    background-color: red;
     left: 240px;
 }
 
-#third {
-    background-color: green;
+#second-element {
+    background-color: yellow;
+}
+
+#third-box {
+    background-color: yellow;
     left: 470px;
+}
+
+#third-element {
+    background-color: green;
 }
